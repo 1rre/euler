@@ -1,0 +1,9 @@
+{
+    "value": [
+        "ref:23e6c97f:/home/tm/Documents/euler/euler/resources",
+        "ref:539cb922:/home/tm/Documents/euler/out/euler/compile/dest/classes",
+        "qref:caf2cff2:/home/tm/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.2/scala-library-2.13.2.jar"
+    ],
+    "valueHash": -367456998,
+    "inputsHash": -1286302912
+}
