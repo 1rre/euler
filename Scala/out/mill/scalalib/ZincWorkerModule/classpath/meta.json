@@ -1,14 +1,14 @@
 {
     "value": [
-        "qref:bd298990:/home/tm/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/mill-scalalib-worker_2.13/0.7.3/mill-scalalib-worker_2.13-0.7.3.jar",
+        "qref:76f8b438:/home/tm/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/mill-scalalib-worker_2.13/0.7.0/mill-scalalib-worker_2.13-0.7.0.jar",
         "qref:8bd9b4b5:/home/tm/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc_2.13/1.4.0-M1/zinc_2.13-1.4.0-M1.jar",
-        "qref:3855e252:/home/tm/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/mill-scalalib-api_2.13/0.7.3/mill-scalalib-api_2.13-0.7.3.jar",
+        "qref:4163f3ad:/home/tm/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/mill-scalalib-api_2.13/0.7.0/mill-scalalib-api_2.13-0.7.0.jar",
         "qref:d7abf618:/home/tm/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar",
         "qref:fa350b46:/home/tm/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc-core_2.13/1.4.0-M1/zinc-core_2.13-1.4.0-M1.jar",
         "qref:d123534e:/home/tm/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc-persist_2.13/1.4.0-M1/zinc-persist_2.13-1.4.0-M1.jar",
         "qref:fce85092:/home/tm/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc-compile-core_2.13/1.4.0-M1/zinc-compile-core_2.13-1.4.0-M1.jar",
         "qref:c11b7087:/home/tm/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc-classfile_2.13/1.4.0-M1/zinc-classfile_2.13-1.4.0-M1.jar",
-        "qref:4862b791:/home/tm/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/mill-main-api_2.13/0.7.3/mill-main-api_2.13-0.7.3.jar",
+        "qref:418990c5:/home/tm/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/mill-main-api_2.13/0.7.0/mill-main-api_2.13-0.7.0.jar",
         "qref:75ca133a:/home/tm/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc-apiinfo_2.13/1.4.0-M1/zinc-apiinfo_2.13-1.4.0-M1.jar",
         "qref:544d40d1:/home/tm/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/zinc-classpath_2.13/1.4.0-M1/zinc-classpath_2.13-1.4.0-M1.jar",
         "qref:3ea1d02c:/home/tm/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.4.0-M1/compiler-interface-1.4.0-M1.jar",
@@ -52,6 +52,6 @@
         "qref:8d229486:/home/tm/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle-core_2.13/1.1.0/upickle-core_2.13-1.1.0.jar",
         "qref:1a5367bc:/home/tm/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.13/2.1.4/scala-collection-compat_2.13-2.1.4.jar"
     ],
-    "valueHash": -93063708,
-    "inputsHash": 1719504760
+    "valueHash": -1233646821,
+    "inputsHash": -1510664472
 }

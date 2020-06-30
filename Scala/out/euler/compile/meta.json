@@ -1,8 +1,8 @@
 {
     "value": {
-        "analysisFile": "/home/tm/Documents/euler/out/euler/compile/dest/zinc",
-        "classes": "ref:539cb922:/home/tm/Documents/euler/out/euler/compile/dest/classes"
+        "analysisFile": "/home/tm/Documents/euler/Scala/out/euler/compile/dest/zinc",
+        "classes": "ref:0a09c1b5:/home/tm/Documents/euler/Scala/out/euler/compile/dest/classes"
     },
-    "valueHash": 934103535,
-    "inputsHash": -473416841
+    "valueHash": -1610304468,
+    "inputsHash": -316155566
 }

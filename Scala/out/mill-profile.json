@@ -1,23 +1,23 @@
 [
     {
         "label": "euler.mainClass",
-        "millis": 1,
+        "millis": 11,
         "cached": true
     },
     {
         "label": "mill.scalalib.ZincWorkerModule.compilerInterfaceClasspath",
-        "millis": 1,
+        "millis": 3,
         "cached": true
     },
     {
         "label": "mill.scalalib.ZincWorkerModule.classpath",
-        "millis": 0,
+        "millis": 8,
         "cached": true
     },
     {
         "label": "mill.scalalib.ZincWorkerModule.worker",
-        "millis": 1,
-        "cached": true
+        "millis": 112,
+        "cached": false
     },
     {
         "label": "euler.upstreamCompileOutput",
@@ -26,7 +26,7 @@
     },
     {
         "label": "euler.sources",
-        "millis": 2,
+        "millis": 21,
         "cached": false
     },
     {
@@ -37,31 +37,31 @@
     {
         "label": "euler.allSources",
         "millis": 1,
-        "cached": false
+        "cached": true
     },
     {
         "label": "euler.allSourceFiles",
-        "millis": 4,
-        "cached": false
+        "millis": 5,
+        "cached": true
     },
     {
         "label": "euler.transitiveLocalClasspath",
-        "millis": 0,
+        "millis": 2,
         "cached": true
     },
     {
         "label": "euler.resources",
-        "millis": 1,
+        "millis": 6,
         "cached": false
     },
     {
         "label": "euler.unmanagedClasspath",
-        "millis": 1,
+        "millis": 0,
         "cached": true
     },
     {
         "label": "euler.scalaVersion",
-        "millis": 0,
+        "millis": 1,
         "cached": true
     },
     {
@@ -76,32 +76,32 @@
     },
     {
         "label": "euler.scalaOrganization",
-        "millis": 0,
-        "cached": true
-    },
-    {
-        "label": "euler.scalaLibraryIvyDeps",
-        "millis": 0,
-        "cached": true
-    },
-    {
-        "label": "euler.ivyDeps",
-        "millis": 0,
-        "cached": true
-    },
-    {
-        "label": "euler.transitiveIvyDeps",
         "millis": 1,
         "cached": true
     },
     {
-        "label": "euler.compileClasspath",
+        "label": "euler.scalaLibraryIvyDeps",
+        "millis": 26,
+        "cached": true
+    },
+    {
+        "label": "euler.ivyDeps",
+        "millis": 1,
+        "cached": true
+    },
+    {
+        "label": "euler.transitiveIvyDeps",
         "millis": 0,
         "cached": true
     },
     {
+        "label": "euler.compileClasspath",
+        "millis": 1,
+        "cached": true
+    },
+    {
         "label": "euler.javacOptions",
-        "millis": 0,
+        "millis": 1,
         "cached": true
     },
     {
@@ -111,12 +111,12 @@
     },
     {
         "label": "euler.scalaCompilerClasspath",
-        "millis": 0,
+        "millis": 1,
         "cached": true
     },
     {
         "label": "euler.scalacPluginIvyDeps",
-        "millis": 0,
+        "millis": 1,
         "cached": true
     },
     {
@@ -126,13 +126,13 @@
     },
     {
         "label": "euler.compile",
-        "millis": 305,
-        "cached": false
+        "millis": 2,
+        "cached": true
     },
     {
         "label": "euler.finalMainClassOpt",
-        "millis": 9,
-        "cached": false
+        "millis": 0,
+        "cached": true
     },
     {
         "label": "euler.finalMainClass",
@@ -141,12 +141,12 @@
     },
     {
         "label": "euler.localClasspath",
-        "millis": 2,
-        "cached": false
+        "millis": 0,
+        "cached": true
     },
     {
         "label": "euler.runIvyDeps",
-        "millis": 0,
+        "millis": 1,
         "cached": true
     },
     {
@@ -157,7 +157,7 @@
     {
         "label": "euler.runClasspath",
         "millis": 1,
-        "cached": false
+        "cached": true
     },
     {
         "label": "euler.forkArgs",
@@ -166,7 +166,7 @@
     },
     {
         "label": "euler.forkEnv",
-        "millis": 1,
+        "millis": 2,
         "cached": true
     },
     {
@@ -176,7 +176,7 @@
     },
     {
         "label": "euler.run",
-        "millis": 452,
+        "millis": 555,
         "cached": false
     }
 ]

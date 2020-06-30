@@ -1,8 +1,8 @@
 {
     "value": [
-        "ref:23e6c97f:/home/tm/Documents/euler/euler/resources",
-        "ref:539cb922:/home/tm/Documents/euler/out/euler/compile/dest/classes"
+        "ref:fca950ae:/home/tm/Documents/euler/Scala/euler/resources",
+        "ref:0a09c1b5:/home/tm/Documents/euler/Scala/out/euler/compile/dest/classes"
     ],
-    "valueHash": -1102482499,
-    "inputsHash": -1580930950
+    "valueHash": 438499021,
+    "inputsHash": -923276778
 }
