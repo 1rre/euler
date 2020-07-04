@@ -1,10 +1,11 @@
 package re._1r.euler
 
 import problems._
+import scala.compat.Platform.currentTime
 
-object main extends App{
-	val start = java.lang.System.currentTimeMillis
-	val result = _62.result
-	val fin = java.lang.System.currentTimeMillis
-	println(result + "\ntook: " + (fin - start))
+object Main extends App{
+	val now = currentTime
+	val result = _68.result
+	val nownow = currentTime
+	println(s"$result\ntook: ${nownow - now}")
 }
