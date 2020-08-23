@@ -8,5 +8,5 @@ object Primes{
 			primes(i + j + 2 * i * j - 1) = 0
 		}
 		2 +: primes.filterNot(_ == 0).map(_ * 2 + 1)
-	}
+  }
 }

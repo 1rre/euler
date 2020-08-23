@@ -15,6 +15,9 @@ object NumberOps{
     def shape(n: Int) = {
       i * (i * (n - 2) - (n - 4)) / 2
     }
+    def digits = {
+      i.toString.map(_.asDigit)
+    }
     def isShape(n: Int) = {
       (i == 0 || i == 1 || i > 1 && isShapeR(0, i, i, n))
     }

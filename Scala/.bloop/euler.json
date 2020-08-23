@@ -2,10 +2,10 @@
     "version": "1.1.2",
     "project": {
         "name": "euler",
-        "directory": "/home/tm/Documents/euler/euler",
-        "workspaceDir": "/home/tm/Documents/euler",
+        "directory": "/home/tm/Documents/euler/Scala/euler",
+        "workspaceDir": "/home/tm/Documents/euler/Scala",
         "sources": [
-            "/home/tm/Documents/euler/euler/src"
+            "/home/tm/Documents/euler/Scala/euler/src"
         ],
         "dependencies": [
             
@@ -13,10 +13,10 @@
         "classpath": [
             "/home/tm/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.2/scala-library-2.13.2.jar"
         ],
-        "out": "/home/tm/Documents/euler/.bloop/out/euler",
-        "classesDir": "/home/tm/Documents/euler/.bloop/out/euler/classes",
+        "out": "/home/tm/Documents/euler/Scala/.bloop/out/euler",
+        "classesDir": "/home/tm/Documents/euler/Scala/.bloop/out/euler/classes",
         "resources": [
-            "/home/tm/Documents/euler/euler/resources"
+            "/home/tm/Documents/euler/Scala/euler/resources"
         ],
         "scala": {
             "organization": "org.scala-lang",
@@ -26,11 +26,11 @@
                 
             ],
             "jars": [
+                "/home/tm/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.2/scala-compiler-2.13.2.jar",
+                "/home/tm/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.2/scala-reflect-2.13.2.jar",
                 "/home/tm/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.2/scala-library-2.13.2.jar",
                 "/home/tm/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.14.1/jline-3.14.1.jar",
-                "/home/tm/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.2/scala-reflect-2.13.2.jar",
-                "/home/tm/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar",
-                "/home/tm/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.2/scala-compiler-2.13.2.jar"
+                "/home/tm/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar"
             ]
         },
         "java": {
@@ -41,8 +41,9 @@
         "platform": {
             "name": "jvm",
             "config": {
+                "home": "/usr/lib/jvm/java-11-openjdk-amd64",
                 "options": [
-                    "-Duser.dir=/home/tm/Documents/euler"
+                    "-Duser.dir=/home/tm/Documents/euler/Scala"
                 ]
             },
             "mainClass": [
