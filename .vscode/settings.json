@@ -44,6 +44,13 @@
         "sstream": "cpp",
         "stdexcept": "cpp",
         "streambuf": "cpp",
-        "*.scala": "cpp"
+        "*.scala": "cpp",
+        "chrono": "cpp",
+        "ctime": "cpp",
+        "map": "cpp",
+        "ratio": "cpp"
+    },
+    "files.watcherExclude": {
+        "**/target": true
     }
 }

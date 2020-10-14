@@ -1,6 +1,8 @@
+defmodule Euler73 do
 
-
-cond do
-  this == that -> something
-  this < that -> somethingElse
 end
+
+begin = System.monotonic_time(:nanosecond)
+result = Euler73.result
+fin = System.monotonic_time(:nanosecond)
+IO.puts(to_string(result) <> "\ntook: " <> to_string(fin - begin))

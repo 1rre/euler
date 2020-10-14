@@ -1,0 +1,119 @@
+{
+    "value": {
+        "version": "1.1.2",
+        "project": {
+            "name": "euler",
+            "directory": "C:\\Users\\tjmoo\\Documents\\e\\Scala\\euler",
+            "workspaceDir": [
+                "C:\\Users\\tjmoo\\Documents\\e\\Scala"
+            ],
+            "sources": [
+                "C:\\Users\\tjmoo\\Documents\\e\\Scala\\euler\\src"
+            ],
+            "dependencies": [
+                
+            ],
+            "classpath": [
+                "C:\\Users\\tjmoo\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.2\\scala-library-2.13.2.jar"
+            ],
+            "out": "C:\\Users\\tjmoo\\Documents\\e\\Scala\\.bloop\\out\\euler",
+            "classesDir": "C:\\Users\\tjmoo\\Documents\\e\\Scala\\.bloop\\out\\euler\\classes",
+            "resources": [
+                [
+                    "C:\\Users\\tjmoo\\Documents\\e\\Scala\\euler\\resources"
+                ]
+            ],
+            "scala": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-compiler",
+                    "version": "2.13.2",
+                    "options": [
+                        
+                    ],
+                    "jars": [
+                        "C:\\Users\\tjmoo\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-compiler\\2.13.2\\scala-compiler-2.13.2.jar",
+                        "C:\\Users\\tjmoo\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.13.2\\scala-reflect-2.13.2.jar",
+                        "C:\\Users\\tjmoo\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.2\\scala-library-2.13.2.jar",
+                        "C:\\Users\\tjmoo\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\jline\\jline\\3.14.1\\jline-3.14.1.jar",
+                        "C:\\Users\\tjmoo\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\net\\java\\dev\\jna\\jna\\5.3.1\\jna-5.3.1.jar"
+                    ],
+                    "analysis": [
+                        
+                    ],
+                    "setup": [
+                        
+                    ]
+                }
+            ],
+            "java": [
+                {
+                    "options": [
+                        
+                    ]
+                }
+            ],
+            "sbt": [
+                
+            ],
+            "test": [
+                
+            ],
+            "platform": [
+                {
+                    "$type": "bloop.config.Config.Platform.Jvm",
+                    "config": {
+                        "$type": "bloop.config.Config.JvmConfig",
+                        "home": [
+                            "C:\\Program Files\\Java\\jdk1.8.0_251"
+                        ],
+                        "options": [
+                            "-Duser.dir=C:\\Users\\tjmoo\\Documents\\e\\Scala"
+                        ]
+                    },
+                    "mainClass": [
+                        
+                    ]
+                }
+            ],
+            "resolution": [
+                {
+                    "modules": [
+                        {
+                            "organization": "org.scala-lang",
+                            "name": "scala-library",
+                            "version": "2.13.2",
+                            "configurations": [
+                                
+                            ],
+                            "artifacts": [
+                                {
+                                    "name": "scala-library",
+                                    "classifier": [
+                                        
+                                    ],
+                                    "checksum": [
+                                        
+                                    ],
+                                    "path": "C:\\Users\\tjmoo\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.2\\scala-library-2.13.2.jar"
+                                },
+                                {
+                                    "name": "scala-library",
+                                    "classifier": [
+                                        "sources"
+                                    ],
+                                    "checksum": [
+                                        
+                                    ],
+                                    "path": "C:\\Users\\tjmoo\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.2\\scala-library-2.13.2-sources.jar"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "valueHash": 1261665883,
+    "inputsHash": 1078800286
+}

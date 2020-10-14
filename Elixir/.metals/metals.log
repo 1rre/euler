@@ -928,3 +928,7 @@ WARNING: Unmatched cancel notification for request id 22775
 2020.07.25 14:14:56 WARN  no build tool detected in workspace 'C:\Users\tjmoo\Documents\projecteuler\elixir'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
 2020.07.25 14:14:56 INFO  no build target: using presentation compiler with only scala-library
 2020.07.25 14:14:59 WARN  no build target for: C:\Users\tjmoo\Documents\projecteuler\elixir\79.scala
+2020.09.10 21:14:44 INFO  started: Metals version 0.9.3 in workspace 'C:\Users\tjmoo\Documents\e\Elixir' for client vscode.
+2020.09.10 21:14:46 INFO  time: initialize in 1.81s
+2020.09.10 21:14:54 WARN  no build tool detected in workspace 'C:\Users\tjmoo\Documents\e\Elixir'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.09.26 11:01:43 INFO  shutting down Metals

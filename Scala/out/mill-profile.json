@@ -1,0 +1,182 @@
+[
+    {
+        "label": "euler.mainClass",
+        "millis": 28,
+        "cached": true
+    },
+    {
+        "label": "mill.scalalib.ZincWorkerModule.compilerInterfaceClasspath",
+        "millis": 9,
+        "cached": true
+    },
+    {
+        "label": "mill.scalalib.ZincWorkerModule.classpath",
+        "millis": 13,
+        "cached": true
+    },
+    {
+        "label": "mill.scalalib.ZincWorkerModule.worker",
+        "millis": 210,
+        "cached": false
+    },
+    {
+        "label": "euler.upstreamCompileOutput",
+        "millis": 1,
+        "cached": true
+    },
+    {
+        "label": "euler.sources",
+        "millis": 77,
+        "cached": false
+    },
+    {
+        "label": "euler.generatedSources",
+        "millis": 2,
+        "cached": true
+    },
+    {
+        "label": "euler.allSources",
+        "millis": 10,
+        "cached": false
+    },
+    {
+        "label": "euler.allSourceFiles",
+        "millis": 103,
+        "cached": false
+    },
+    {
+        "label": "euler.transitiveLocalClasspath",
+        "millis": 2,
+        "cached": true
+    },
+    {
+        "label": "euler.resources",
+        "millis": 12,
+        "cached": false
+    },
+    {
+        "label": "euler.unmanagedClasspath",
+        "millis": 2,
+        "cached": true
+    },
+    {
+        "label": "euler.scalaVersion",
+        "millis": 1,
+        "cached": true
+    },
+    {
+        "label": "euler.platformSuffix",
+        "millis": 2,
+        "cached": true
+    },
+    {
+        "label": "euler.compileIvyDeps",
+        "millis": 2,
+        "cached": true
+    },
+    {
+        "label": "euler.scalaOrganization",
+        "millis": 1,
+        "cached": true
+    },
+    {
+        "label": "euler.scalaLibraryIvyDeps",
+        "millis": 51,
+        "cached": true
+    },
+    {
+        "label": "euler.ivyDeps",
+        "millis": 2,
+        "cached": true
+    },
+    {
+        "label": "euler.transitiveIvyDeps",
+        "millis": 1,
+        "cached": true
+    },
+    {
+        "label": "euler.compileClasspath",
+        "millis": 2,
+        "cached": true
+    },
+    {
+        "label": "euler.javacOptions",
+        "millis": 1,
+        "cached": true
+    },
+    {
+        "label": "euler.scalacOptions",
+        "millis": 2,
+        "cached": true
+    },
+    {
+        "label": "euler.scalaCompilerClasspath",
+        "millis": 2,
+        "cached": true
+    },
+    {
+        "label": "euler.scalacPluginIvyDeps",
+        "millis": 3,
+        "cached": true
+    },
+    {
+        "label": "euler.scalacPluginClasspath",
+        "millis": 2,
+        "cached": true
+    },
+    {
+        "label": "euler.compile",
+        "millis": 9367,
+        "cached": false
+    },
+    {
+        "label": "euler.finalMainClassOpt",
+        "millis": 66,
+        "cached": false
+    },
+    {
+        "label": "euler.finalMainClass",
+        "millis": 2,
+        "cached": true
+    },
+    {
+        "label": "euler.localClasspath",
+        "millis": 9,
+        "cached": false
+    },
+    {
+        "label": "euler.runIvyDeps",
+        "millis": 3,
+        "cached": true
+    },
+    {
+        "label": "euler.upstreamAssemblyClasspath",
+        "millis": 3,
+        "cached": true
+    },
+    {
+        "label": "euler.runClasspath",
+        "millis": 18,
+        "cached": false
+    },
+    {
+        "label": "euler.forkArgs",
+        "millis": 5,
+        "cached": true
+    },
+    {
+        "label": "euler.forkEnv",
+        "millis": 4,
+        "cached": true
+    },
+    {
+        "label": "euler.forkWorkingDir",
+        "millis": 2,
+        "cached": true
+    },
+    {
+        "label": "euler.run",
+        "millis": 49745,
+        "cached": false
+    }
+]

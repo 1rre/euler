@@ -4,5 +4,8 @@
     "iostream": "cpp",
     "any": "cpp",
     "chrono": "cpp"
+  },
+  "files.watcherExclude": {
+    "**/target": true
   }
 }

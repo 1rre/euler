@@ -1,19 +1,29 @@
 defmodule Primes do
   def genPrimes(max) do
     k = trunc((max - 2) / 2)
-    primes = Enum.reduce(1..k, [], fn v, acc ->
-      acc ++ [v]
-    end)
-    Enum.each(1..k, fn i ->
-      l = trunc((k - i) / (1 + 2 * i))
-      Enum.each(i..l, fn j ->
-        List.replace_at(primes, i + j + 2 * i * j - 1, 0)
+    notPrimes = Enum.reduce(1..k, [1], fn i, primes ->
+      Enum.reduce(i..k, primes, fn j, primes ->
+        if i + j + 2 * i * j <= k do
+          [2 * (i + j + 2 * i * j) + 1 | primes]
+        else
+          primes
+        end
       end)
     end)
-    [2] ++ Enum.map(Enum.filter(primes, fn x -> x != 0 end), fn x -> x * 2 + 1 end)
+    Enum.reject(1..max, fn x -> rem(x, 2) == 0 && x != 2 || Enum.member?(notPrimes, x) end)
   end
+def genNotPrimes(max) do
+  k = trunc((max - 2) / 2)
+  notPrimes = Enum.reverse([1 | tl(Enum.sort(Enum.uniq(Enum.reduce(1..k, [], fn i, primes ->
+    [2 * i | Enum.reduce(i..k, primes, fn j, primes ->
+      if i + j + 2 * i * j <= k do
+        [2 * (i + j + 2 * i * j) + 1 | primes]
+      else
+        primes
+      end
+    end)]
+  end))))])
 end
-
 avg = Enum.reduce(0..30, 0, fn x, acc ->
   begin = System.monotonic_time(:nanosecond)
   _ = Euler_78.result
@@ -25,4 +35,3 @@ avg = Enum.reduce(0..30, 0, fn x, acc ->
   end
 end)
 IO.puts(to_string(result) <> "\ntook: " <> to_string(avg))
-

@@ -10,11 +10,16 @@
  * additional information regarding copyright ownership.
  */
 
+import scala.annotation.migration
+
 /**
  * Core Scala types. They are always available without an explicit import.
  * @contentDiagram hideNodes "scala.Serializable"
  */
 package object scala {
+  type Cloneable    = java.lang.Cloneable
+  type Serializable = java.io.Serializable
+
   type Throwable = java.lang.Throwable
   type Exception = java.lang.Exception
   type Error     = java.lang.Error
@@ -37,23 +42,31 @@ package object scala {
     override def toString = "object AnyRef"
   }
 
-  type TraversableOnce[+A] = scala.collection.TraversableOnce[A]
+  @deprecated("Use IterableOnce instead of TraversableOnce", "2.13.0")
+  type TraversableOnce[+A] = scala.collection.IterableOnce[A]
 
-  type Traversable[+A] = scala.collection.Traversable[A]
-  val Traversable = scala.collection.Traversable
+  type IterableOnce[+A] = scala.collection.IterableOnce[A]
+
+  @deprecated("Use Iterable instead of Traversable", "2.13.0")
+  type Traversable[+A] = scala.collection.Iterable[A]
+  @deprecated("Use Iterable instead of Traversable", "2.13.0")
+  val Traversable = scala.collection.Iterable
 
   type Iterable[+A] = scala.collection.Iterable[A]
   val Iterable = scala.collection.Iterable
 
-  type Seq[+A] = scala.collection.Seq[A]
-  val Seq = scala.collection.Seq
+  @migration("scala.Seq is now scala.collection.immutable.Seq instead of scala.collection.Seq", "2.13.0")
+  type Seq[+A] = scala.collection.immutable.Seq[A]
+  val Seq = scala.collection.immutable.Seq
 
-  type IndexedSeq[+A] = scala.collection.IndexedSeq[A]
-  val IndexedSeq = scala.collection.IndexedSeq
+  @migration("scala.IndexedSeq is now scala.collection.immutable.IndexedSeq instead of scala.collection.IndexedSeq", "2.13.0")
+  type IndexedSeq[+A] = scala.collection.immutable.IndexedSeq[A]
+  val IndexedSeq = scala.collection.immutable.IndexedSeq
 
   type Iterator[+A] = scala.collection.Iterator[A]
   val Iterator = scala.collection.Iterator
 
+  @deprecated("Use scala.collection.BufferedIterator instead of scala.BufferedIterator", "2.13.0")
   type BufferedIterator[+A] = scala.collection.BufferedIterator[A]
 
   type List[+A] = scala.collection.immutable.List[A]
@@ -61,15 +74,28 @@ package object scala {
 
   val Nil = scala.collection.immutable.Nil
 
-  type ::[A] = scala.collection.immutable.::[A]
+  type ::[+A] = scala.collection.immutable.::[A]
   val :: = scala.collection.immutable.::
 
   val +: = scala.collection.+:
   val :+ = scala.collection.:+
 
+  @deprecated("Use LazyList instead of Stream", "2.13.0")
   type Stream[+A] = scala.collection.immutable.Stream[A]
+  @deprecated("Use LazyList instead of Stream", "2.13.0")
   val Stream = scala.collection.immutable.Stream
-  val #:: = scala.collection.immutable.Stream.#::
+
+  type LazyList[+A] = scala.collection.immutable.LazyList[A]
+  val LazyList = scala.collection.immutable.LazyList
+  // This should be an alias to LazyList.#:: but we need to support Stream, too
+  //val #:: = scala.collection.immutable.LazyList.#::
+  object #:: {
+    def unapply[A](s: LazyList[A]): Option[(A, LazyList[A])] =
+      if (s.nonEmpty) Some((s.head, s.tail)) else None
+    @deprecated("Prefer LazyList instead", since = "2.13.0")
+    def unapply[A](s: Stream[A]): Option[(A, Stream[A])] =
+      if (s.nonEmpty) Some((s.head, s.tail)) else None
+  }
 
   type Vector[+A] = scala.collection.immutable.Vector[A]
   val Vector = scala.collection.immutable.Vector
@@ -118,19 +144,4 @@ package object scala {
   type Right[+A, +B] = scala.util.Right[A, B]
   val Right = scala.util.Right
 
-  // Annotations which we might move to annotation.*
-/*
-  type SerialVersionUID = annotation.SerialVersionUID
-  type deprecated = annotation.deprecated
-  type deprecatedName = annotation.deprecatedName
-  type inline = annotation.inline
-  type native = annotation.native
-  type noinline = annotation.noinline
-  type remote = annotation.remote
-  type specialized = annotation.specialized
-  type transient = annotation.transient
-  type throws  = annotation.throws
-  type unchecked = annotation.unchecked.unchecked
-  type volatile = annotation.volatile
-  */
 }
