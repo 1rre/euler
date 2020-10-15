@@ -1,0 +1,1 @@
+def factorial(x: Int) = (1 to x).

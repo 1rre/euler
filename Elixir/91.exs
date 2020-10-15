@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 defmodule E91 do
   def hypot2(a, b) do
     a * a + b * b
@@ -26,10 +27,31 @@ defmodule E91 do
         end)
       end)
     end) / 2
+=======
+defmodule Euler91 do
+  def result do
+    n = 50
+
+    Enum.reduce(1..div(n, 2), Enum.reduce(1..n, 0, fn x, acc ->
+      Enum.reduce(1..n, acc, fn y, acc ->
+        acc + 3
+      end)
+    end), fn x, acc ->
+      Enum.reduce(1..div(n, 2), acc + 1, fn y, acc ->
+        acc + 1
+      end)
+    end)
+>>>>>>> 586e1ba890d950595e7b542f79e1b28444ce88f1
   end
 end
 
 begin = System.monotonic_time(:nanosecond)
+<<<<<<< HEAD
 result = E91.result
 fin = System.monotonic_time(:nanosecond)
 IO.puts("#{result}\ntook: #{(fin - begin) / 1000000000}")
+=======
+result = Euler91.result
+fin = System.monotonic_time(:nanosecond)
+IO.puts("#{result}\ntook: #{(fin - begin)/1000000000}")
+>>>>>>> 586e1ba890d950595e7b542f79e1b28444ce88f1

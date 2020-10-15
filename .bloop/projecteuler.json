@@ -1,0 +1,141 @@
+{
+    "version" : "1.1.2",
+    "project" : {
+        "name" : "projecteuler",
+        "directory" : "C:\\Users\\tjmoo\\Documents\\projecteuler",
+        "sources" : [
+            "C:\\Users\\tjmoo\\Documents\\projecteuler\\src\\main\\scala-2.12",
+            "C:\\Users\\tjmoo\\Documents\\projecteuler\\src\\main\\scala",
+            "C:\\Users\\tjmoo\\Documents\\projecteuler\\src\\main\\java",
+            "C:\\Users\\tjmoo\\Documents\\projecteuler\\target\\scala-2.12\\src_managed\\main"
+        ],
+        "dependencies" : [
+        ],
+        "classpath" : [
+            "C:\\Users\\tjmoo\\Documents\\projecteuler\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.12.8\\scala-library-2.12.8.jar"
+        ],
+        "out" : "C:\\Users\\tjmoo\\Documents\\projecteuler\\.bloop\\projecteuler",
+        "classesDir" : "C:\\Users\\tjmoo\\Documents\\projecteuler\\.bloop\\projecteuler\\scala-2.12\\classes",
+        "resources" : [
+            "C:\\Users\\tjmoo\\Documents\\projecteuler\\src\\main\\resources",
+            "C:\\Users\\tjmoo\\Documents\\projecteuler\\target\\scala-2.12\\resource_managed\\main"
+        ],
+        "scala" : {
+            "organization" : "org.scala-lang",
+            "name" : "scala-compiler",
+            "version" : "2.12.8",
+            "options" : [
+                "-P:semanticdb:synthetics:on",
+                "-P:semanticdb:failures:warning",
+                "-P:semanticdb:sourceroot:C:\\Users\\tjmoo\\Documents\\projecteuler",
+                "-Yrangepos",
+                "-Xplugin-require:semanticdb",
+                "-Xplugin:C:\\Users\\tjmoo\\Documents\\projecteuler\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalameta\\semanticdb-scalac_2.12.8\\4.1.9\\semanticdb-scalac_2.12.8-4.1.9.jar"
+            ],
+            "jars" : [
+                "C:\\Users\\tjmoo\\Documents\\projecteuler\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.12.8\\scala-library-2.12.8.jar",
+                "C:\\Users\\tjmoo\\Documents\\projecteuler\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-compiler\\2.12.8\\scala-compiler-2.12.8.jar",
+                "C:\\Users\\tjmoo\\Documents\\projecteuler\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\jline\\jline\\2.14.6\\jline-2.14.6.jar",
+                "C:\\Users\\tjmoo\\Documents\\projecteuler\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-xml_2.12\\1.0.6\\scala-xml_2.12-1.0.6.jar",
+                "C:\\Users\\tjmoo\\Documents\\projecteuler\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.12.8\\scala-reflect-2.12.8.jar"
+            ],
+            "setup" : {
+                "order" : "mixed",
+                "addLibraryToBootClasspath" : true,
+                "addCompilerToClasspath" : false,
+                "addExtraJarsToClasspath" : false,
+                "manageBootClasspath" : true,
+                "filterLibraryFromClasspath" : true
+            }
+        },
+        "java" : {
+            "options" : [
+            ]
+        },
+        "test" : {
+            "frameworks" : [
+                {
+                    "names" : [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names" : [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names" : [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names" : [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names" : [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                }
+            ],
+            "options" : {
+                "excludes" : [
+                ],
+                "arguments" : [
+                ]
+            }
+        },
+        "platform" : {
+            "name" : "jvm",
+            "config" : {
+                "home" : "C:\\Program Files\\Java\\jre1.8.0_251",
+                "options" : [
+                ]
+            },
+            "mainClass" : [
+            ]
+        },
+        "resolution" : {
+            "modules" : [
+                {
+                    "organization" : "org.scala-lang",
+                    "name" : "scala-library",
+                    "version" : "2.12.8",
+                    "configurations" : "default",
+                    "artifacts" : [
+                        {
+                            "name" : "scala-library",
+                            "path" : "C:\\Users\\tjmoo\\Documents\\projecteuler\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.12.8\\scala-library-2.12.8.jar"
+                        },
+                        {
+                            "name" : "scala-library",
+                            "classifier" : "sources",
+                            "path" : "C:\\Users\\tjmoo\\Documents\\projecteuler\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.12.8\\scala-library-2.12.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scala-lang",
+                    "name" : "scala-library",
+                    "version" : "2.12.8",
+                    "configurations" : "optional",
+                    "artifacts" : [
+                        {
+                            "name" : "scala-library",
+                            "path" : "C:\\Users\\tjmoo\\Documents\\projecteuler\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.12.8\\scala-library-2.12.8.jar"
+                        },
+                        {
+                            "name" : "scala-library",
+                            "classifier" : "sources",
+                            "path" : "C:\\Users\\tjmoo\\Documents\\projecteuler\\null\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.12.8\\scala-library-2.12.8-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

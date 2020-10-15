@@ -1,4 +1,5 @@
 defmodule Euler78 do
+<<<<<<< HEAD
   def sign(a) do
     if rem(abs(a + 1), 2) == 0 do
       1
@@ -36,3 +37,12 @@ begin = System.monotonic_time(:nanosecond)
 result = Euler78.result
 fin = System.monotonic_time(:nanosecond)
 IO.puts("#{result}\ntook: #{(fin - begin) / 1000000000}")
+=======
+
+  def result do
+    rr(2)
+  end
+end
+
+IO.puts(Euler78.result)
+>>>>>>> 586e1ba890d950595e7b542f79e1b28444ce88f1

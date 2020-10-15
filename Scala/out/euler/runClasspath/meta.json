@@ -1,9 +1,9 @@
 {
     "value": [
-        "ref:fca950ae:/home/tm/Documents/euler/Scala/euler/resources",
-        "ref:0a09c1b5:/home/tm/Documents/euler/Scala/out/euler/compile/dest/classes",
-        "qref:caf2cff2:/home/tm/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.2/scala-library-2.13.2.jar"
+        "ref:57767c34:C:\\Users\\tjmoo\\Documents\\e\\scala\\euler\\resources",
+        "ref:c6c99776:C:\\Users\\tjmoo\\Documents\\e\\scala\\out\\euler\\compile\\dest\\classes",
+        "qref:897696f2:C:\\Users\\tjmoo\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.2\\scala-library-2.13.2.jar"
     ],
-    "valueHash": 1786852513,
-    "inputsHash": -1201460035
+    "valueHash": 816468846,
+    "inputsHash": 447886235
 }

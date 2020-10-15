@@ -3,24 +3,24 @@
         "version": "1.1.2",
         "project": {
             "name": "euler",
-            "directory": "/home/tm/Documents/euler/euler",
+            "directory": "C:\\Users\\tjmoo\\Documents\\e\\Scala\\euler",
             "workspaceDir": [
-                "/home/tm/Documents/euler"
+                "C:\\Users\\tjmoo\\Documents\\e\\Scala"
             ],
             "sources": [
-                "/home/tm/Documents/euler/euler/src"
+                "C:\\Users\\tjmoo\\Documents\\e\\Scala\\euler\\src"
             ],
             "dependencies": [
                 
             ],
             "classpath": [
-                "/home/tm/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.2/scala-library-2.13.2.jar"
+                "C:\\Users\\tjmoo\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.2\\scala-library-2.13.2.jar"
             ],
-            "out": "/home/tm/Documents/euler/.bloop/out/euler",
-            "classesDir": "/home/tm/Documents/euler/.bloop/out/euler/classes",
+            "out": "C:\\Users\\tjmoo\\Documents\\e\\Scala\\.bloop\\out\\euler",
+            "classesDir": "C:\\Users\\tjmoo\\Documents\\e\\Scala\\.bloop\\out\\euler\\classes",
             "resources": [
                 [
-                    "/home/tm/Documents/euler/euler/resources"
+                    "C:\\Users\\tjmoo\\Documents\\e\\Scala\\euler\\resources"
                 ]
             ],
             "scala": [
@@ -32,11 +32,11 @@
                         
                     ],
                     "jars": [
-                        "/home/tm/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.2/scala-library-2.13.2.jar",
-                        "/home/tm/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.14.1/jline-3.14.1.jar",
-                        "/home/tm/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.2/scala-reflect-2.13.2.jar",
-                        "/home/tm/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar",
-                        "/home/tm/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.2/scala-compiler-2.13.2.jar"
+                        "C:\\Users\\tjmoo\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-compiler\\2.13.2\\scala-compiler-2.13.2.jar",
+                        "C:\\Users\\tjmoo\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.13.2\\scala-reflect-2.13.2.jar",
+                        "C:\\Users\\tjmoo\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.2\\scala-library-2.13.2.jar",
+                        "C:\\Users\\tjmoo\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\jline\\jline\\3.14.1\\jline-3.14.1.jar",
+                        "C:\\Users\\tjmoo\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\net\\java\\dev\\jna\\jna\\5.3.1\\jna-5.3.1.jar"
                     ],
                     "analysis": [
                         
@@ -65,10 +65,10 @@
                     "config": {
                         "$type": "bloop.config.Config.JvmConfig",
                         "home": [
-                            
+                            "C:\\Program Files\\Java\\jdk1.8.0_251"
                         ],
                         "options": [
-                            "-Duser.dir=/home/tm/Documents/euler"
+                            "-Duser.dir=C:\\Users\\tjmoo\\Documents\\e\\Scala"
                         ]
                     },
                     "mainClass": [
@@ -95,7 +95,7 @@
                                     "checksum": [
                                         
                                     ],
-                                    "path": "/home/tm/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.2/scala-library-2.13.2.jar"
+                                    "path": "C:\\Users\\tjmoo\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.2\\scala-library-2.13.2.jar"
                                 },
                                 {
                                     "name": "scala-library",
@@ -105,7 +105,7 @@
                                     "checksum": [
                                         
                                     ],
-                                    "path": "/home/tm/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.2/scala-library-2.13.2-sources.jar"
+                                    "path": "C:\\Users\\tjmoo\\AppData\\Local\\Coursier\\cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.2\\scala-library-2.13.2-sources.jar"
                                 }
                             ]
                         }
@@ -114,6 +114,6 @@
             ]
         }
     },
-    "valueHash": 139124504,
-    "inputsHash": 1386570035
+    "valueHash": 1261665883,
+    "inputsHash": 1078800286
 }
