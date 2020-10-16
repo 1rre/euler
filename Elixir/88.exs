@@ -26,8 +26,11 @@ defmodule Euler88 do
   def compareSums(v, last) do
     sum = Enum.sum(v)
     product = Enum.reduce(v, 1, fn v, acc -> acc * v end)
+<<<<<<< HEAD
+=======
     #IO.puts("#{Enum.join(v, ",")}")
     #IO.puts("sum: #{sum}, product: #{product}")
+>>>>>>> 586e1ba890d950595e7b542f79e1b28444ce88f1
     cond do
       sum == product -> sum
       sum > product && last -> Enum.map(v, fn x -> x + 1 end) |> compareSums(true)
@@ -37,10 +40,18 @@ defmodule Euler88 do
     end
   end
   def result do
+<<<<<<< HEAD
+    n = 10000
+    Enum.reduce(2..n, 0, fn x, acc ->
+      y = compareSums(List.duplicate(1, x), true)
+      IO.puts("#{x}: #{y}")
+      acc + y
+=======
     n = 1200
     Enum.reduce(2..n, 0, fn x, acc ->
       IO.puts("x: #{x}")
       acc + compareSums(List.duplicate(1, x), true)
+>>>>>>> 586e1ba890d950595e7b542f79e1b28444ce88f1
     end)
   end
 end

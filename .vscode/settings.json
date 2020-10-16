@@ -1,4 +1,9 @@
 {
+<<<<<<< HEAD
+  "files.watcherExclude": {
+    "**/target": true
+  }
+=======
     "files.associations": {
         "cmath": "cpp",
         "cstdarg": "cpp",
@@ -53,4 +58,5 @@
     "files.watcherExclude": {
         "**/target": true
     }
+>>>>>>> 586e1ba890d950595e7b542f79e1b28444ce88f1
 }

@@ -1,5 +1,6 @@
 package re._1r.euler
 import problems._
+import scala.compat.Platform.currentTime
 
 object main extends App {
 	val start = java.lang.System.currentTimeMillis

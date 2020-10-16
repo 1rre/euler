@@ -3,6 +3,23 @@ package re._1r.euler.utils
 import scala.language.postfixOps
 import scala.math._
 
+class Fraction(val numer: BigInt, val denom: BigInt) {
+  def +(i: BigInt) = new Fraction(numer + i * denom, denom)
+  def /(f: Fraction) = new Fraction(numer * f.denom, denom * f.numer)
+  def apply: Double = numer.toDouble / denom.toDouble
+  override def toString(): String = numer.toString + "/" + denom.toString
+}
+
+class InfiniteRootSum(val int: Int, val root: Int, val numer: Int, val denom: Int) {
+  def this(rt: Int) = this(sqrt(rt).toInt, rt, -sqrt(rt).toInt, 1)
+  def next: InfiniteRootSum = {
+    val iNext = (denom / (sqrt(root) + numer)).toInt
+    val dNext = (root - pow(numer, 2).toInt) / denom
+    val nNext = - numer - iNext * dNext
+    new InfiniteRootSum(iNext, root, nNext, dNext)
+  }
+}
+
 object NumberOps{
   implicit class doubleOps(d: Double){
     def ^(power: Double) = pow(d, power)

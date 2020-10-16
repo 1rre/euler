@@ -7,12 +7,21 @@
     {
       "type": "scala",
       "request": "launch",
+<<<<<<< HEAD
+      "name": "Run Main",
+      "mainClass": "re._1r.euler.Main",
+      "buildTarget": "euler",
+=======
       "name": "Untitled",
       "mainClass": "re._1r.euler.main",
+>>>>>>> 586e1ba890d950595e7b542f79e1b28444ce88f1
       "args": [],
       "jvmOptions": []
     }
 
+<<<<<<< HEAD
+=======
 
+>>>>>>> 586e1ba890d950595e7b542f79e1b28444ce88f1
   ]
 }
