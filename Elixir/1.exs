@@ -1,5 +1,5 @@
 defmodule Euler1 do
-@max 1000000
+@max 1000
   def result, do: Enum.map(1..div(@max, 3), &(3 * &1)) ++ Enum.map(1..div(@max, 5), &(if rem(&1, 3) == 0, do: 0, else: 5 * &1)) |> Enum.sum
 end
 
