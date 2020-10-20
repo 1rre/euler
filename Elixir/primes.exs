@@ -12,13 +12,26 @@ defmodule Ptest do
     end)
     Enum.reject(1..max, fn x -> rem(x, 2) == 0 && x != 2 || Enum.member?(notPrimes, x) end)
   end
+
+  def factorial(n), do: if n == 1, do: 1, else: n * factorial(n - 1)
+
+  def plt(n), do: [2 | Enum.reject(2..n - 1, fn n -> if n == 1, do: false, else: Enum.any?(2..ceil(:math.sqrt(n)), &(rem(n, &1) == 0)) end)]
+end
+def sum_plt(max, n\\1, n!\\1) do
+  if rem(n, 1000) == 0, do: IO.puts("#{n}")
+  if n == max do
+    trunc(rem(n * n!, n + 1) / n) * (n - 1) + 2
+  else
+    (case trunc(rem(n * n!, n + 1) / n) * (n - 1) + 2 do
+      2 -> 0
+      x -> 0
+    end) + sum_plt(max, n + 1, n * n!)
+  end
 end
 
-IO.puts(Enum.join(Ptest.genPrimes(1000), "\n"))
+IO.puts(Ptest.factorial(100000))
 
 # Finds all the primes less than n
 # It's faster to use this method than a sieve as Elixir has immutable data structures
 # which means that a lot of lists have to be generated, increasing the time complexity
 # beyond O()
-
-def plt(n), do: [2 | Enum.reject(2..n - 1, fn n -> if n == 1, do: false, else: Enum.any?(2..ceil(:math.sqrt(n)), &(rem(n, &1) == 0)) end)]
