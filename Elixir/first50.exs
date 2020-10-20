@@ -107,7 +107,6 @@ end
 
 defmodule Euler9 do
   def find(a\\333, b\\333, c\\334) do
-    IO.puts("#{a},#{b},#{c}")
     case a * a + b * b do
       x when x == c * c -> a * b * c
       x when x > c * c -> if x - a * a > b * b, do: find(a - 1, b, c + 1), else: find(a, b - 1, c + 1)
