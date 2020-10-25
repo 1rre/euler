@@ -1,58 +1,27 @@
 defmodule Euler88 do
-  def compareFineSums(v, n, last) do
-    v = List.update_at(v, n, fn x ->
-      if last do
-        x + 1
-      else
-        x - 1
-      end
-    end)
-    sum = Enum.sum(v)
-    product = Enum.reduce(v, 1, fn v, acc -> acc * v end)
-    #IO.puts("#{Enum.join(v, ",")}")
-    #IO.puts("sum: #{sum}, product: #{product}, n: #{n}")
+@max 12000
+@max_time 800
+  def find_sum(n, list, start_time\\System.monotonic_time(:millisecond), added\\false) do
+    sum = Enum.sum(list)
+    mul = Enum.reduce(list, &(&1 * &2))
+#    IO.puts("[#{Enum.join(list, ",")}]: #{sum}, #{mul}")
     cond do
-      sum == product -> sum
-      last && sum > product -> compareFineSums(v, n, true)
-      last && n < Enum.count(v) - 1 && Enum.at(v, n + 1) > 1 -> compareFineSums(v, n + 1, false)
-      Enum.at(v, n) > 1 && sum < product -> compareFineSums(v, n, false)
-      Enum.at(v, 0) > 1 && n >= Enum.count(v) - 1 -> compareFineSums(v, 0, sum > product)
-      Enum.count(v) - 1 <= n -> compareFineSums(v, 0, true)
-      sum > product -> compareFineSums(v, n + 1, true)
-      Enum.at(v, n + 1) > 1 -> compareFineSums(v, n + 1, false)
-      true -> compareFineSums(v, n + 1, true)
-    end
-  end
-  def compareSums(v, last) do
-    sum = Enum.sum(v)
-    product = Enum.reduce(v, 1, fn v, acc -> acc * v end)
-<<<<<<< HEAD
-=======
-    #IO.puts("#{Enum.join(v, ",")}")
-    #IO.puts("sum: #{sum}, product: #{product}")
->>>>>>> 586e1ba890d950595e7b542f79e1b28444ce88f1
-    cond do
-      sum == product -> sum
-      sum > product && last -> Enum.map(v, fn x -> x + 1 end) |> compareSums(true)
-      last -> compareFineSums(v, 0, false)
-      sum < product -> Enum.map(v, fn x -> x - 1 end) |> compareSums(false)
-      true -> compareFineSums(v, 0, true)
+      System.monotonic_time(:millisecond) - start_time > 2 * @max_time -> -1
+      System.monotonic_time(:millisecond) - start_time > @max_time && !(added) ->
+        IO.puts("Adding")
+        find_sum(n, List.replace_at(list, n - 1, Enum.at(list, n - 1) + n), start_time, true)
+      sum == mul ->
+        #IO.puts("#{n}: #{sum}")
+        sum
+      mul < sum -> find_sum(n, Enum.map(list, &(if :rand.normal > 0.5, do: &1 + ceil(abs(:rand.normal)), else: &1)), start_time, added)
+      mul > sum -> find_sum(n, Enum.map(list, &(if :rand.normal > 0.5, do: max(1, &1 - ceil(abs(:rand.normal))), else: &1)), start_time, added)
     end
   end
   def result do
-<<<<<<< HEAD
-    n = 10000
-    Enum.reduce(2..n, 0, fn x, acc ->
-      y = compareSums(List.duplicate(1, x), true)
-      IO.puts("#{x}: #{y}")
-      acc + y
-=======
-    n = 1200
-    Enum.reduce(2..n, 0, fn x, acc ->
-      IO.puts("x: #{x}")
-      acc + compareSums(List.duplicate(1, x), true)
->>>>>>> 586e1ba890d950595e7b542f79e1b28444ce88f1
-    end)
+    Enum.reduce(2..@max, MapSet.new(), fn n, acc ->
+      IO.puts(n)
+      MapSet.put(acc, Enum.map(1..12, fn _ -> Task.async(Euler88, :find_sum, [n, List.duplicate(2, n)]) end) |> Enum.map(fn x -> Task.await(x, @max * 2000) end) |> Enum.filter(&(&1 != -1)) |> Enum.min)
+    end) |> Enum.sum
   end
 end
 

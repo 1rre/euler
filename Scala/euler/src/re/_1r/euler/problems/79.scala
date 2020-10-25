@@ -1,5 +1,5 @@
 import collection.mutable.HashMap
-object Euler79 extends App {
+object Euler79 {
   val file = io.Source.fromFile("keylog.txt").getLines.map(_.toVector).toVector
   println(file.foldLeft(file.foldLeft(HashMap[Char, Int]())((acc, v) => {
     v.foreach(chr => v.count(_ == chr) match {

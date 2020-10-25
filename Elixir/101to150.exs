@@ -87,8 +87,7 @@ defmodule Euler104 do
     end
   end
 
-  defp div_while(x, n\\0) do
-    if n != 0, do: IO.puts(n)
+  defp div_while(x) do
     case div(x, 1000000000) do
       0 -> x
       y -> div_while(div(x, (if x < @double_max do
@@ -395,15 +394,15 @@ end
 
 begin = System.monotonic_time(:nanosecond)
 result = case System.argv() |> hd do
-  "101" ->  Euler11.result()
-  "102" ->  Euler12.result()
-  "103" ->  Euler13.result()
-  "104" ->  Euler14.result()
-  "105" ->  Euler15.result()
-  "106" ->  Euler16.result()
-  "107" ->  Euler17.result()
-  "108" ->  Euler18.result()
-  "109" ->  Euler19.result()
+  "101" -> Euler101.result()
+  "102" -> Euler102.result()
+  "103" -> Euler103.result()
+  "104" -> Euler104.result()
+  "105" -> Euler105.result()
+  "106" -> Euler106.result()
+  "107" -> Euler107.result()
+  "108" -> Euler108.result()
+  "109" -> Euler109.result()
   "110" -> Euler110.result()
   "111" -> Euler111.result()
   "112" -> Euler112.result()
@@ -447,4 +446,4 @@ result = case System.argv() |> hd do
   "150" -> Euler150.result()
 end
 fin = System.monotonic_time(:nanosecond)
-IO.puts("#{result}\ntook: #{fin - begin}")
+IO.puts("#{result}\ntook: #{(fin - begin) / 1000000000}")
