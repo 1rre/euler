@@ -1,6 +1,5 @@
-out/*
-.bloop/*
-.elixir_ls/*
-Scala/out/*
-Scala/.bloop/*
-Scala/.metals/*
+out/
+.bloop/
+.elixir_ls/
+.metals/
+.vscode/

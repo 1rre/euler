@@ -3,45 +3,55 @@
 == Problem 1
 *Solved in* Beam Bytecode  
 
-*Link:* link:beam/e1.S[e1.S]
+*Link:* link:beam/e1.S[1.S]
 
 == Problem 2
 *Solved in* Beam Bytecode  
 
-*Link:* link:beam/e2.S[e2.S]
+*Link:* link:beam/e2.S[2.S]
 
 == Problem 3
 *Solved in* Beam Bytecode  
 
-*Link:* link:beam/e3.S[e3.S]
+*Link:* link:beam/e3.S[3.S]
 
 == Problem 4
 *Solved in* Beam Bytecode  
 
-*Link:* link:beam/e4.S[e4.S]
+*Link:* link:beam/e4.S[4.S]
 
 == Problem 5
 *Solved in* Beam Bytecode  
 
-*Link:* link:beam/e5.S[e5.S]
+*Link:* link:beam/e5.S[5.S]
 
 == Problem 6
 *Solved in* Beam Bytecode  
 
-*Link:* link:beam/e6.S[e6.S]
+*Link:* link:beam/e6.S[6.S]
 
 == Problem 7
 *Solved in* Beam Bytecode  
 
-*Link:* link:beam/e7.S[e7.S]
+*Link:* link:beam/e7.S[7.S]
 
 == Problem 8
 *Solved in* Beam Bytecode  
 
-*Link:* link:beam/e8.S[e8.S]
+*Link:* link:beam/e8.S[8.S]
 
 == Problem 9
 *Solved in* Beam Bytecode  
 
-*Link:* link:beam/e9.S[e9.S]
+*Link:* link:beam/9.S[9.S]
+
+== Problem 10
+*Solved in* Beam Bytecode  
+
+*Link:* link:beam/10.S[10.S]
+
+== Problem 11
+*Solved in* Scala  
+
+*Link:* link:scala/11.S[11.S]
 
