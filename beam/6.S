@@ -1,0 +1,19 @@
+{function,problem6, 0, 1}.
+  {label,0}.
+    {func_info,{atom,euler},{atom,problem},0}.
+  {label,1}.
+    {move,{integer,0},{x,0}}.
+    {move,{integer,0},{x,1}}.
+    {move,{integer,0},{x,2}}.
+  {label,2}.
+    {gc_bif,'+',{f,4},3,[{x,2},{integer,1}],{x,2}}.
+    {test,is_lt,{f,3},[{x,2},{integer,101}]}.
+    {gc_bif,'+',{f,4},3,[{x,1},{x,2}],{x,1}}.
+    {gc_bif,'*',{f,4},3,[{x,2},{x,2}],{x,3}}.
+    {gc_bif,'+',{f,4},4,[{x,0},{x,3}],{x,0}}.
+    {jump,{f,2}}.
+  {label,3}.
+    {gc_bif,'*',{f,4},2,[{x,1},{x,1}],{x,1}}.
+    {gc_bif,'-',{f,4},2,[{x,1},{x,0}],{x,0}}.
+  {label,4}.
+    return.

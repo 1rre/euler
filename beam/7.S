@@ -1,0 +1,64 @@
+{function,problem7,0,1}.
+  {label,0}.
+    {func_info,{atom,euler},{atom,problem},0}.
+  {label,1}.
+    {allocate,2,0}.
+    {move,{integer,2},{x,0}}.
+    {move,{integer,0},{x,1}}.
+  {label,2}.
+    {move,{x,0},{y,0}}.
+    {move,{x,1},{y,1}}.
+    {call,1,{f,s1}}.
+    {move,{x,0},{x,2}}.
+    {move,{y,0},{x,0}}.
+    {move,{y,1},{x,1}}.
+  {label,3}.
+    {test,is_ne,{f,5},[{x,2},{integer,1}]}.
+    {gc_bif,'rem',{f,6},3,[{x,0},{x,2}],{x,3}}.
+    {test,is_eq,{f,4},[{x,3},{integer,0}]}.
+    {gc_bif,'+',{f,6},2,[{x,0},{integer,1}],{x,0}}.
+    {jump,{f,2}}.
+  {label,4}.
+    {gc_bif,'-',{f,6},3,[{x,2},{integer,1}],{x,2}}.
+    {jump,{f,3}}.
+  {label,5}.
+    {gc_bif,'+',{f,6},2,[{x,1},{integer,1}],{x,1}}.
+    {test,is_ne,{f,6},[{x,1},{integer,10001}]}.
+    {gc_bif,'+',{f,6},2,[{x,0},{integer,1}],{x,0}}.
+    {jump,{f,2}}.
+  {label,6}.
+    {deallocate,2}.
+    return.'
+
+
+{function,i_sqrt,1,s1}.
+  {label,s0}.
+    {func_info,{atom,euler},{atom,i_sqrt},1}.
+  {label,s1}.
+    {move,{x,0},{x,1}}.
+    {move,{integer,1},{x,2}}.
+  {label,s2}.
+    {gc_bif,'+',{f,0},3,[{x,1},{x,2}],{x,3}}.
+    {gc_bif,'bsr',{f,0},4,[{x,3},{integer,1}],{x,3}}.
+    {gc_bif,'*',{f,0},4,[{x,3},{x,3}],{x,4}}.
+    {test,is_ne,{f,s3},[{x,4},{x,0}]}.
+    {test,is_eq,{f,s4},[{x,2},{x,3}]}.
+  {label,s3}.
+    {move,{x,3},{x,0}}.
+    return.
+  {label,s4}.
+    {test,is_lt,{f,s5},[{x,4},{x,0}]}.
+    {move,{x,3},{x,2}}.
+    {jump,{f,s2}}.
+  {label,s5}.
+    {move,{x,3},{x,1}}.
+    {jump,{f,s2}}.
+
+{function,problem,0,1}.
+  {label,0}.
+    {func_info,{atom,euler},{atom,problem},0}.
+  {label,1}.
+    {move,{integer,0},{x,0}}.
+    {move,{integer,0},{x,1}}.
+  {label,2}.
+    
