@@ -1,0 +1,321 @@
+= Each problem & the language I solved it in
+
+== Problem 1
+*Solved in* Beam Bytecode  
+
+*Link:* link:beam/e1.S[1.S]
+
+== Problem 2
+*Solved in* Beam Bytecode  
+
+*Link:* link:beam/e2.S[2.S]
+
+== Problem 3
+*Solved in* Beam Bytecode  
+
+*Link:* link:beam/e3.S[3.S]
+
+== Problem 4
+*Solved in* Beam Bytecode  
+
+*Link:* link:beam/e4.S[4.S]
+
+== Problem 5
+*Solved in* Beam Bytecode  
+
+*Link:* link:beam/e5.S[5.S]
+
+== Problem 6
+*Solved in* Beam Bytecode  
+
+*Link:* link:beam/e6.S[6.S]
+
+== Problem 7
+*Solved in* Beam Bytecode  
+
+*Link:* link:beam/e7.S[7.S]
+
+== Problem 8
+*Solved in* Beam Bytecode  
+
+*Link:* link:beam/e8.S[8.S]
+
+== Problem 9
+*Solved in* Beam Bytecode  
+
+*Link:* link:beam/9.S[9.S]
+
+== Problem 10
+*Solved in* Beam Bytecode  
+
+*Link:* link:beam/10.S[10.S]
+
+== Problem 11
+*Solved in* Scala  
+
+*Link:* link:scala/11.sc[11.sc]
+
+== Unfortuately I cannot find my solutions for 12-50
+I am working on recompleting all problems without a saved solution so I have a full archive.
+
+Most of these were stored locally on a hard drive which has since corrupted, teaching me about the importance of backups.
+
+== Problem 51
+*Solved in* Scala  
+
+*Link:* link:scala/51.sc[51.sc]
+
+== Problem 52
+*Solved in* Scala  
+
+*Link:* link:scala/52.sc[52.sc]
+
+== Problem 53
+*Solved in* Scala  
+
+*Link:* link:scala/53.sc[53.sc]
+
+== Problem 54
+*Solved in* Scala  
+
+*Link:* link:scala/54.sc[54.sc]
+
+== Problem 55
+*Solved in* Scala  
+
+*Link:* link:scala/55.sc[55.sc]
+
+== Problem 56
+*Solved in* Scala  
+
+*Link:* link:scala/56.sc[56.sc]
+
+== Problem 57
+*Solved in* Scala  
+
+*Link:* link:scala/57.sc[57.sc]
+
+== Problem 58
+*Solved in* Scala  
+
+*Link:* link:scala/58.sc[58.sc]
+
+== Problem 59
+*Solved in* Scala  
+
+*Link:* link:scala/59.sc[59.sc]
+
+== Problem 60
+*Solved in* Scala  
+
+*Link:* link:scala/60.sc[60.sc]
+
+== Problem 61
+*Solved in* Scala  
+
+*Link:* link:scala/61.sc[61.sc]
+
+== Problem 62
+*Solved in* Scala  
+
+*Link:* link:scala/62.sc[62.sc]
+
+== Problem 63
+Completed but lost
+
+== Problem 64
+*Solved in* Elixir  
+
+*Link:* link:elixir/64.exs[64.exs]
+
+== Problem 65
+*Solved in* Elixir  
+
+*Link:* link:elixir/65.exs[65.exs]
+
+== Problem 66
+*Solved in* Scala  
+
+*Link:* link:scala/66.sc[66.sc]
+
+== Problem 67
+*Solved in* Elixir  
+
+*Link:* link:elixir/67.exs[67.exs]
+
+== Problem 68
+*Solved in* Scala  
+
+*Link:* link:scala/68.sc[68.sc]
+
+== Problem 69
+Completed but lost
+
+== Problem 70
+*Solved in* C++
+
+*Link:* link:cpp/70.cpp[70.cpp]
+
+== Problem 71
+Completed but lost
+
+== Problem 72
+*Solved in* C++
+
+*Link:* link:cpp/72.cpp[72.cpp]
+
+== Problem 73
+Completed but lost
+
+== Problem 74
+Completed but lost
+
+== Problem 75
+*Solved in* Elixir
+
+*Link:* link:elixir/75.exs[75.exs]
+
+== Problem 76
+*Solved in* Elixir
+
+*Link:* link:elixir/76.exs[75.exs]
+
+== Problem 77
+*Solved in* Elixir
+
+*Link:* link:elixir/77.exs[77.exs]
+
+== Problem 78
+*Solved in* Elixir
+
+*Link:* link:elixir/78.exs[78.exs]
+
+== Problem 79
+*Solved in* Scala
+
+*Link:* link:scala/79.sc[79.sc]
+
+== Problem 80
+Completed but lost
+
+== Problem 81
+*Solved in* Elixir
+
+*Link:* link:elixir/81.exs[81.exs]
+
+== Problem 82
+*Solved in* Scala
+
+*Link:* link:scala/82.sc[82.sc]
+
+== Problem 83
+*Solved in* Elixir
+
+*Link:* link:elixir/83.exs[83.exs]
+
+== Problem 84
+*Solved in* Scala
+
+*Link:* link:scala/84.sc[84.sc]
+
+== Problem 85
+*Solved in* Scala
+
+*Link:* link:scala/85.sc[85.sc]
+
+== Problem 86
+*Solved in* Elixir
+
+*Link:* link:elixir/86.exs[86.exs]
+
+== Problem 87
+*Solved in* Elixir
+
+*Link:* link:elixir/87.exs[87.exs]
+
+== Problem 88
+Uncompleted
+
+== Problem 89
+*Solved in* Elixir
+
+*Link:* link:elixir/89.exs[89.exs]
+
+== Problem 90
+*Solved in* Scala
+
+*Link:* link:scala/90.sc[90.sc]
+
+== Problem 91
+*Solved in* Elixir
+
+*Link:* link:elixir/91.exs[91.exs]
+
+== Problem 92
+Completed but lost
+
+== Problem 93
+Uncompleted
+
+== Problem 94
+*Solved in* Elixir
+
+*Link:* link:elixir/94.exs[94.exs]
+
+== Problem 95
+Completed but lost
+
+== Problem 96
+Uncompleted
+
+== Problem 97
+*Solved in* Elixir
+
+*Link:* link:elixir/97.exs[97.exs]
+
+== Problem 98
+*Solved in* Elixir
+
+*Link:* link:elixir/98.exs[98.exs]
+
+== Problem 99
+*Solved in* Elixir
+
+*Link:* link:elixir/99.exs[99.exs]
+
+== Problem 100
+Completed but lost
+
+== Problem 101
+*Solved in* Elixir
+
+*Link:* link:elixir/101.exs[101.exs]
+
+== Problem 102
+*Solved in* Elixir
+
+*Link:* link:elixir/102.exs[102.exs]
+
+== Problem 103
+*Solved in* Elixir
+
+*Link:* link:elixir/103.exs[103.exs]
+
+== Problem 104
+*Solved in* Elixir
+
+*Link:* link:elixir/104.exs[104.exs]
+
+== Problem 105
+*Solved in* Elixir
+
+*Link:* link:elixir/105.exs[105.exs]
+
+== Problems 106-108
+Uncompleted
+
+== Problem 109
+Completed but lost
+
+== Problem 110+
+Uncompleted
